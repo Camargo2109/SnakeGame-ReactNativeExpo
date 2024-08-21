@@ -21,7 +21,7 @@ const foodemojis = [
     "🍅",
 ];
 
-const Food = ({ coords, top}) => {
+const Food = ({ coords, top }) => {
     const randDomFood = foodemojis[Math.floor(Math.random() * foodemojis.length)];
     const foodStyle = {
         width: PIXEL,
@@ -30,8 +30,10 @@ const Food = ({ coords, top}) => {
         left: coords.x * PIXEL + BORDER,
     };
     return (
-        <View>
+        <View style={[{ position: "absolute" }, foodStyle]}>
             <Text>{randDomFood}</Text>
         </View>
     );
 }
+
+export default Food

@@ -35,3 +35,5 @@ const Snake = ({ snake, top }) => {
         </>
     )
 }
+
+export default Snake

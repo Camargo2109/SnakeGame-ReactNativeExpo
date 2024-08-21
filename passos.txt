@@ -1,3 +1,13 @@
 Configurar o Git Local:
 git config --global user.name "Arthur Camargo"
 git config --global user.email arthur.barrabonita@gmail.com
+
+
+npm i
+
+npx expo start
+
+
+react-native-web@~0.19.10
+react-dom@18.2.0
+@expo/metro-runtime@~3.2.3
